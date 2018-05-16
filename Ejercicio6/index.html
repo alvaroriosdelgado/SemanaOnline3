@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ejercicio 6</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+	*{
+		box-sizing: border-box;
+	}
+
+	.contenedor{
+		max-width: 800px;
+		height: 550px;
+		margin: auto;
+	}
+
+
+	.col-1{
+		width: 100%;
+		float: left;
+	}
+
+	.col-3{
+		width: 33%;
+		float: left;
+		padding: 20px;
+	}
+
+	header{
+		height: 200px;
+		background-color: #8bc34a;
+	}
+
+	header h1{
+		text-align: center;
+		color: #ffffff;
+		font-size: 30px;
+		padding-top: 30px;
+	}
+
+	header h2{
+		text-align: center;
+		color: #ffffff;
+		font-size: 30px;
+	}
+
+	img{
+		max-width: 100%;
+	}
+
+	@media (max-width:480px){
+
+		.contenedor{
+			max-width: 800px;
+			height: auto;
+			margin: auto;
+		}
+
+		.col-3{
+			width: 100%;
+			float: left;
+			padding: 10px;
+			margin: auto;
+		}
+
+		header h1{
+			font-size: 4vh;
+
+		}
+
+		header h2{
+			font-size: 4vh;
+		}
+
+		img{
+			max-width: 100%;
+			margin: auto;
+		}
+
+	}
+
+</style>
+
+</head>
+
+<body>
+<div class="contenedor">
+<header class="col-1">
+	<h1>HOLA!!</h1>
+	<h2>ESTE ES UN EJERCICIO DE GRILLAS</h2>
+</header>
+
+<section class="row">
+	<div class="col-3">
+	<img src="img.jpg">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam tenetur dolor, doloremque modi optio 		quam sint consequatur eos eveniet dolorum nihil aliquam adipisci praesentium totam laudantium corporis perferendis 		quas! Magni!
+	</div>
+	<div class="col-3">
+	<img src="img.jpg">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam tenetur dolor, doloremque modi optio 		quam sint consequatur eos eveniet dolorum nihil aliquam adipisci praesentium totam laudantium corporis perferendis 		quas! Magni!
+	</div>
+	<div class="col-3">
+	<img src="img.jpg">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam tenetur dolor, doloremque modi optio 		quam sint consequatur eos eveniet dolorum nihil aliquam adipisci praesentium totam laudantium corporis perferendis 		quas! Magni!
+	</div>
+</section>
+</div>
+</body>
+</html>
